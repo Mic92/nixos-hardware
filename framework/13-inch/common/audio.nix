@@ -41,7 +41,7 @@ in
   };
 
   config = lib.mkIf cfg.enabled (let
-    outputName = "alsa_output.pci-0000_c1_00.6.analog-stereo";
+    outputName = "alsa_output.pci-0000_00_1f.3.analog-stereo";
     prettyName = "Framework Speakers";
 
     # These are pre-made decibel to linear value conversions, since Nix doesn't have pow().
